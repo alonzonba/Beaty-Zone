@@ -15,57 +15,77 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a class="logo" href="#"
-            >beauty <br />
-            zone</a
-          >
-          <ul class="header-navigation">
-            <li><a class="link" href="#">Про нас</a></li>
-            <li><a class="link" href="#">Чому ми</a></li>
-            <li><a class="link" href="#">Наші процедури</a></li>
-            <li><a class="link" href="#">Контакти</a></li>
-          </ul>
-          <div class="header-buttons">
-            <button type="button">
-              <!-- Call -->
-            </button>
-            <button type="button">
-              <!-- Facebook -->
-            </button>
-            <button type="button">
-              <!-- Instagram -->
-            </button>
-          </div>
-        </nav>
+        <div class="header-container">
+          <nav class="header-nav">
+            <a class="logo" href="#"
+              >beauty <br />
+              zone</a
+            >
+            <ul class="header-navigation">
+              <li><a class="link" href="#">Про нас</a></li>
+              <li><a class="link" href="#">Чому ми</a></li>
+              <li><a class="link" href="#">Наші процедури</a></li>
+              <li><a class="link" href="#">Контакти</a></li>
+            </ul>
+            <div class="header-buttons">
+              <button type="button">
+                <!-- Call -->
+              </button>
+              <button type="button">
+                <!-- Facebook -->
+              </button>
+              <button type="button">
+                <!-- Instagram -->
+              </button>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero-section">
         <div class="container">
-          <p>Косметологічна клініка</p>
+          <p class="hero-company">Косметологічна клініка</p>
           <h1 class="hero-title">
             beauty <br />
             zone
           </h1>
           <button class="button" type="button">Замовити дзвінок</button>
-          <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+          <p class="hero-description">
+            Запишись та отримай безкоштовну консультацію нашого косметолога
+          </p>
         </div>
       </section>
       <section class="reincarnation-section">
-        <div class="container">
-          <h2 class="section-title">
-            Перевтілюйтесь в <span class="accent_capitalize">beauty zone!</span>
-          </h2>
-          <p>
-            Наша косметологічна клініка пропонує вам професійні послуги з
-            догляду за шкірою обличчя та тіла.
-          </p>
-          <p>
-            B beauty zone ми гарантуємо найвищі стандарти якості та приємний
-            сервіс. Наші косметологічні процедури та препарати допоможуть вам
-            підтримувати свою красу та молодість. З нами краса назавжди!
-          </p>
+        <div class="reincarnation_layout container">
+          <div class="reincarnation-text">
+            <h2 class="section-title reincarnation">
+              Перевтілюйтесь в
+              <span class="accent_capitalize">beauty zone!</span>
+            </h2>
+            <p class="reincarnation-servises">
+              Наша косметологічна клініка пропонує вам професійні послуги з
+              догляду за шкірою обличчя та тіла.
+            </p>
+            <p class="reincarnation-servises">
+              B <span class="little_accent">beauty zone</span> ми гарантуємо
+              найвищі стандарти якості та приємний сервіс. Наші косметологічні
+              процедури та препарати допоможуть вам підтримувати свою красу та
+              молодість. З нами краса назавжди!
+            </p>
+          </div>
+          <div class="reincarnation-picrutes">
+            <img
+              class="picture"
+              src="./images/before_procedure.jpg"
+              alt="Зображення жінки до відвідання клініки Beauty Zone"
+            />
+            <img
+              class="picture"
+              src="./images/after_procedure.jpg"
+              alt="Зображення жінки після відвідання клініки Beauty Zone"
+            />
+          </div>
         </div>
       </section>
       <section class="people_choise-section">
@@ -75,22 +95,22 @@
           </h2>
           <ul>
             <li>
-              <article>
+              <p class="people_choise-description">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
-              </article>
+              </p>
             </li>
             <li>
-              <article>
+              <p class="people_choise-description">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
-              </article>
+              </p>
             </li>
             <li>
-              <article>
+              <p class="people_choise-description">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
-              </article>
+              </p>
             </li>
           </ul>
         </div>
