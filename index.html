@@ -10,33 +10,38 @@
       href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <div class="header-container">
-          <nav class="header-nav">
+        <div class="header__container">
+          <nav class="header__nav">
             <a class="logo" href="#"
               >beauty <br />
               zone</a
             >
-            <ul class="header-navigation">
-              <li><a class="link" href="#">Про нас</a></li>
-              <li><a class="link" href="#">Чому ми</a></li>
-              <li><a class="link" href="#">Наші процедури</a></li>
-              <li><a class="link" href="#">Контакти</a></li>
+            <ul class="header__navigation">
+              <li><a class="header__navigation-link" href="#">Про нас</a></li>
+              <li><a class="header__navigation-link" href="#">Чому ми</a></li>
+              <li>
+                <a class="header__navigation-link" href="#">Наші процедури</a>
+              </li>
+              <li><a class="header__navigation-link" href="#">Контакти</a></li>
             </ul>
-            <div class="header-buttons">
-              <button type="button">
-                <!-- Call -->
-              </button>
-              <button type="button">
-                <!-- Facebook -->
-              </button>
-              <button type="button">
-                <!-- Instagram -->
-              </button>
+            <div class="header__buttons">
+              <a href="#">
+                <svg class="header__buttons-button" width="32" height="32">
+                  <use href="./images/icons.svg#icon-telephone"></use></svg
+              ></a>
+              <a href="#"
+                ><svg class="header__buttons-button" width="32" height="32">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+              <a href="#"
+                ><svg class="header__buttons-button" width="32" height="32">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
             </div>
           </nav>
         </div>
@@ -45,13 +50,15 @@
     <main>
       <section class="hero-section">
         <div class="container">
-          <p class="hero-company">Косметологічна клініка</p>
-          <h1 class="hero-title">
+          <p class="hero-section__company">Косметологічна клініка</p>
+          <h1 class="hero-section__title">
             beauty <br />
             zone
           </h1>
-          <button class="button" type="button">Замовити дзвінок</button>
-          <p class="hero-description">
+          <button class="hero-section__button" type="button">
+            Замовити дзвінок
+          </button>
+          <p class="hero-section__description">
             Запишись та отримай безкоштовну консультацію нашого косметолога
           </p>
         </div>

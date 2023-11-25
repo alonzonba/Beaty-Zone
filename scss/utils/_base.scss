@@ -1,0 +1,33 @@
+/* Base */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+}
+
+address {
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  color: var(--color-primary-dark);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(24 / 18);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

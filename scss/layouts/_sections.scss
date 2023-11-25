@@ -1,0 +1,15 @@
+.section-title {
+  text-align: center;
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 40px;
+}
+.section-title .accent {
+  color: var(--color-primary-midle);
+}
+.section-title .accent_capitalize {
+  text-transform: capitalize;
+  color: var(--color-primary-midle);
+}

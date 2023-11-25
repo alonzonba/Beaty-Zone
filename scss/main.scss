@@ -1,0 +1,76 @@
+@import "./utils/base";
+@import "./utils/variables";
+
+@import "./components/logo";
+
+@import "./layouts/container";
+@import "./layouts/sections";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+
+/* Reincarnation */
+.reincarnation_layout {
+  display: flex;
+  gap: 28px;
+  position: relative;
+}
+.reincarnation {
+  text-align: left;
+}
+.reincarnation-text {
+  max-width: 650px;
+  /* display: inline-flex;
+  flex-direction: column;
+  gap: 40px; */
+}
+.reincarnation-picrutes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-grow: 1;
+  gap: 40px;
+}
+.picture:last-child {
+  align-self: end;
+}
+
+.picture {
+  position: relative;
+  max-width: 349px;
+  height: 328px;
+  border-radius: 50%;
+}
+.reincarnation-servises {
+  color: var(--color-secondary-blue);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1, 71;
+  margin-bottom: 40px;
+}
+
+.little_accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* People chose */
+.people_choise-description {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1, 3;
+}
+
+/* Contacts */
+.contacts-title {
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+}
+.contacts-title .accent {
+  color: var(--color-primary-midle);
+}
+/* Footer */
