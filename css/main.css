@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-a {
-  display: inline-block;
-}
-
 address {
   font-style: normal;
 }
@@ -127,7 +123,8 @@ ul {
 
 /* Hero section */
 .hero-section {
-  background-image: linear-gradient(89deg, #fff 30.62%, rgba(255, 255, 255, 0.85) 41.31%, rgba(255, 255, 255, 0.19) 58.65%, rgba(255, 255, 255, 0) 72.78%), url(../images/main_background.jpg);
+  display: flex;
+  background-image: linear-gradient(89deg, #fff 30.62%, rgba(255, 255, 255, 0.85) 41.31%, rgba(255, 255, 255, 0.19) 58.65%, rgba(255, 255, 255, 0) 72.78%), url(../images/main_background.jpg), url(/images/Vector.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -163,6 +160,24 @@ ul {
   line-height: 1.5;
   margin-bottom: 126px;
   text-align: center;
+}
+
+/* People chose */
+.people-choise-section {
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.people-choise-section__description {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1, 3;
+}
+.people-choise-section__title {
+  padding-top: 176px;
 }
 
 /* Reincarnation */
@@ -213,15 +228,6 @@ ul {
 .little_accent {
   font-weight: 600;
   text-transform: capitalize;
-}
-
-/* People chose */
-.people_choise-description {
-  color: #000;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1, 3;
 }
 
 /* Contacts */
