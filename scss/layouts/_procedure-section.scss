@@ -1,0 +1,34 @@
+.procedure-section {
+  &__slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__container {
+    display: flex;
+  }
+  &__list {
+    display: flex;
+    position: relative;
+    gap: 16px;
+  }
+  &__text {
+    display: block;
+    position: relative;
+    width: 344px;
+    height: 456px;
+    color: #fff;
+    border-radius: 4px 120px;
+    background: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.73) 84.61%,
+      #011c44 101.39%
+    );
+  }
+  &__image {
+    position: absolute;
+    border-radius: 4px 120px;
+    z-index: -2;
+  }
+}
