@@ -8,16 +8,20 @@ h6,
 p {
   margin: 0;
 }
-// a {
-//   display: inline-block;
-// }
+
+a {
+  text-decoration: none;
+
+}
 
 address {
   font-style: normal;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   color: var(--color-primary-dark);
   font-family: Roboto;
@@ -26,6 +30,7 @@ body {
   font-weight: 400;
   line-height: calc(24 / 18);
 }
+
 ul {
   list-style-type: none;
   margin: 0;

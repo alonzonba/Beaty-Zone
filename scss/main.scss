@@ -9,6 +9,7 @@
 @import "./layouts/hero-section";
 @import "./layouts/people-choise";
 @import "./layouts/procedure-section";
+@import "./layouts/footer";
 
 /* Reincarnation */
 .reincarnation_layout {
@@ -16,15 +17,18 @@
   gap: 28px;
   position: relative;
 }
+
 .reincarnation {
   text-align: left;
 }
+
 .reincarnation-text {
   max-width: 650px;
   /* display: inline-flex;
   flex-direction: column;
   gap: 40px; */
 }
+
 .reincarnation-picrutes {
   display: flex;
   flex-direction: column;
@@ -32,6 +36,7 @@
   flex-grow: 1;
   gap: 40px;
 }
+
 .picture:last-child {
   align-self: end;
 }
@@ -42,6 +47,7 @@
   height: 328px;
   border-radius: 50%;
 }
+
 .reincarnation-servises {
   color: var(--color-secondary-blue);
   font-size: 22px;
@@ -63,7 +69,9 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .contacts-title .accent {
   color: var(--color-primary-midle);
 }
+
 /* Footer */
